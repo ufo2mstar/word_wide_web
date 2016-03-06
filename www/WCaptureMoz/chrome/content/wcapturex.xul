@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<overlay xmlns:html="http://www.w3.org/1999/xhtml" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<vbox>
+		<html:object id="wcx_plugin" type="application/x-wcx" width="0" height="0"/>
+	</vbox>
+	<script src="WcxTrace.js"/>
+	<script src="wcapturex.js"/>
+</overlay>

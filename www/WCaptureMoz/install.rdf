@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>wcapturex@deskperience.com</em:id>
+    <em:type>2</em:type>
+    <em:name>WordWeb one-click lookup</em:name>
+    <em:version>5.0.4406</em:version>
+    <em:creator>Deskperience</em:creator>
+
+    <em:description>Supports Ctrl+Right-Click (or other hot key) word lookup in WordWeb. Created by Deskperience for WordWeb</em:description>
+
+    <em:homepageURL>http://wordweb.info</em:homepageURL>
+	<em:aboutURL>http://wordweb.info</em:aboutURL>
+
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id> <!-- Firefox -->
+        <em:minVersion>3.0</em:minVersion>
+		<em:maxVersion>*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+
+    <em:targetApplication>
+      <Description>
+        <em:id>{3550f703-e582-4d05-9a08-453d09bdfdc6}</em:id> <!-- Thuderbird -->
+        <em:minVersion>3.0</em:minVersion>
+		<em:maxVersion>*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+
+  </Description>
+</RDF>
